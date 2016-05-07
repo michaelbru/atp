@@ -222,7 +222,7 @@ class AtpGui(Frame):
         print("run tests")           
         print(self.choosedTests)
         self.initTests()
-        #embed( )
+        #embed(  )
         runAtp(self.tests)
         #call('ipython notebook ')#ipython nbconvert notebook.ipynb
 
@@ -240,6 +240,7 @@ class AtpGui(Frame):
          root.mainloop()
 
 if __name__=="__main__":
+
     root = Tk()
     #root.option_readfile('optionDB')
     root.title('Atp')

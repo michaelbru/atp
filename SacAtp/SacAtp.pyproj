@@ -28,6 +28,9 @@
   <ItemGroup>
     <Compile Include="AtpFileFactory.py" />
     <Compile Include="AtpFileProcessing.py" />
+    <Compile Include="AtpTests\ipythonEmbeded.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AtpTests\LoadDriveSignalsTest.py" />
     <Compile Include="AtpTests\SciTest.py" />
     <Compile Include="AtpTests\SpiTest.py" />
@@ -35,6 +38,12 @@
     <Compile Include="AtpTests\VoltMonitorTest.py" />
     <Compile Include="AtpTime.py" />
     <Compile Include="DirectTestsList.py" />
+    <Compile Include="ex_demo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="util.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AtpTests\" />
@@ -49,6 +58,7 @@
     <Content Include="AtpTests\__pycache__\__init__.cpython-34.pyc" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.4" />
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.4" />
   </ItemGroup>
   <PropertyGroup>
